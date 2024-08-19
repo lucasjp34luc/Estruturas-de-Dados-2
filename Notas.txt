@@ -1,0 +1,164 @@
+Sem paralelismo - HD
+
+--- Gerar 1 M ---
+
+"d:/Users/ricar/Documents/Estrutura de Dados 2/Sem paralelismo/1 M/Gerador de numero 1 M .py"
+
+Arquivo 'numeros_aleatorios_0_a_1M.txt' criado com sucesso.
+
+=== Métricas de Execução ===
+Tempo de criação: 1.618810 segundos
+Número de núcleos utilizados: 1
+Uso de CPU durante criação: 0.00%
+Consumo de RAM durante criação: 0.018673 GB 
+
+--- Busca 1 M ---
+
+"d:/Users/ricar/Documents/Estrutura de Dados 2/Sem paralelismo/1 M/Busca 1 M.py"
+
+Buscando o número 395108...
+Número 395108 não encontrado.
+
+=== Métricas de Execução ===
+Tempo de busca: 0.868953 segundos
+Número de núcleos utilizados: 1
+Uso de CPU durante a busca: 12.70%
+Consumo de RAM durante a busca: 0.001209 GB     
+Total de RAM acumulada usada: 0.009766 GB       
+Número de vezes que blocos foram descartados: 1 
+
+--- Gerar 1 B ---
+
+"d:/Users/ricar/Documents/Estrutura de Dados 2/Sem paralelismo/1 B/Gerador de numero 1 B .py"
+
+Arquivo 'numeros_aleatorios_0_a_1B.txt' criado com sucesso.
+
+=== Métricas de Execução ===
+Tempo de criação: 1320.535761 segundos      
+Número de núcleos utilizados: 1
+Uso de CPU durante criação: 0.00% # não reflete o valor real, pelo gerenciador de tarefas ficou variando, e pegava 100% de uso.
+Consumo de RAM durante criação: 0.018604 GB 
+
+--- Busca 1 B ---
+
+"d:/Users/ricar/Documents/Estrutura de Dados 2/Sem paralelismo/1 B/Busca 1 B.py"
+
+Buscando o número 589356502...
+Número 589356502 não encontrado.
+
+=== Métricas de Execução ===
+Tempo de busca: 700.974615 segundos
+Número de núcleos utilizados: 1
+Uso de CPU durante a busca: 17.00% # não reflete o valor real, pelo gerenciador de tarefas ficou variando, e pegava 100% de uso. 
+Consumo de RAM durante a busca: 0.008530 GB
+Total de RAM acumulada usada: 10.146484 GB
+Número de vezes que blocos foram descartados: 6
+
+--- Gerar 100 B ---
+
+
+
+--- Busca 100 B ---
+
+
+
+--- Gerar 1 T ---
+
+# não havia espaço suficiente para gerar, 8 Teras.
+
+--- Busca 1 T ---
+
+# não havia espaço suficiente para gerar, 8 Teras.
+
+
+
+Com paralelismo - HD
+
+--- Gerar 1 M ---
+
+"d:/Users/ricar/Documents/Estrutura de Dados 2/Com paralelismo/1 M/Gerador de numero 1 M .py"
+
+Arquivo 'numeros_aleatorios_0_a_1M.txt' criado com sucesso.
+
+=== Métricas de Execução ===
+Tempo de criação: 0.699914 segundos
+Número de núcleos utilizados: 5
+Uso de CPU durante criação: 0.00% # não reflete o valor real, pelo gerenciador de tarefas ficou variando em todos os 5 nucleos, e pegava 100% de uso.
+Consumo de RAM durante criação: 0.018639 GB 
+
+--- Busca 1 M ---
+
+"d:/Users/ricar/Documents/Estrutura de Dados 2/Com paralelismo/1 M/Busca 1 M.py"
+
+Buscando o número 736508...
+Número 736508 não encontrado.
+
+=== Métricas de Execução ===      
+Tempo de busca: 0.928759 segundos 
+Número de núcleos utilizados: 5   
+Uso de CPU durante a busca: 13.30%
+Consumo de RAM durante a busca: 0.001804 GB
+Total de RAM acumulada usada: 0.009766 GB
+Número de vezes que blocos foram descartados: 1
+
+--- Gerar 1 B ---
+
+"d:/Users/ricar/Documents/Estrutura de Dados 2/Com paralelismo/1 B/Gerador de numero 1 B .py"
+
+Arquivo 'numeros_aleatorios_0_a_1B.txt' criado com sucesso.
+
+=== Métricas de Execução ===
+Tempo de criação: 470.984247 segundos       
+Número de núcleos utilizados: 5
+Uso de CPU durante criação: 0.00% # não reflete o valor real, pelo gerenciador de tarefas ficou em todos os 5 nucleos 100% de uso.
+Consumo de RAM durante criação: 0.018322 GB 
+
+--- Busca 1 B ---
+
+"d:/Users/ricar/Documents/Estrutura de Dados 2/Com paralelismo/1 B/Busca 1 B.py"
+
+Buscando o número 7011753...
+Número 7011753 não encontrado.
+
+=== Métricas de Execução ===
+Tempo de busca: 220.902390 segundos
+Número de núcleos utilizados: 5
+Uso de CPU durante a busca: 58.40% # não reflete o valor real, pelo gerenciador de tarefas ficou em todos os 5 nucleos 100% de uso.
+Consumo de RAM durante a busca: 0.007137 GB
+Total de RAM acumulada usada: 9.746094 GB
+Número de vezes que blocos foram descartados: 5
+
+--- Gerar 100 B ---
+
+"d:/Users/ricar/Documents/Estrutura de Dados 2/Com paralelismo/100 B/Gerador de numero 100 B .py"
+
+Arquivo 'numeros_aleatorios_0_a_100B.txt' criado com sucesso.
+
+=== Métricas de Execução ===
+Tempo de criação: 66979.044768 segundos     
+Número de núcleos utilizados: 25
+Uso de CPU durante criação: 0.00%
+
+--- Busca 100 B ---
+
+"d:/Users/ricar/Documents/Estrutura de Dados 2/Com paralelismo/100 B/Busca 100 B.py"
+
+Buscando o número 50351134214...
+Número 50351134214 encontrado!
+
+=== Métricas de Execução ===
+Tempo de busca: 24444.140580 segundos
+Número de núcleos utilizados: 20 # os nucleos ce comportaram de uma forma estranha. onde 6 nucleos trabalhavam entorno de 80 % a 100 % e os demais n esta nem a 10%.
+Uso de CPU durante a busca: 42.20% 
+Consumo de RAM durante a busca: 0.055485 GB      
+Total de RAM acumulada usada: 540.527344 GB # o arquivo tenha cerca de 858 gb
+Número de vezes que blocos foram descartados: 53 # estava configurado a 10 gb de ram. 
+
+--- Gerar 1 T ---
+
+# não havia espaço suficiente para gerar, 8 Teras.
+
+--- Busca 1 T ---
+
+# não havia espaço suficiente para gerar, 8 Teras.
+
